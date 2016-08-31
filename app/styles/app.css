@@ -1,0 +1,31 @@
+body {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://c2.staticflickr.com/4/3678/12105322973_d087fbac03_b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-custom {
+  background-color: hsl(108, 79%, 28%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a4f291", endColorstr="#257f0e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#a4f291), to(#257f0e));
+  background-image: -moz-linear-gradient(top, #a4f291, #257f0e);
+  background-image: -ms-linear-gradient(top, #a4f291, #257f0e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a4f291), color-stop(100%, #257f0e));
+  background-image: -webkit-linear-gradient(top, #a4f291, #257f0e);
+  background-image: -o-linear-gradient(top, #a4f291, #257f0e);
+  background-image: linear-gradient(#a4f291, #257f0e);
+  border-color: #257f0e #257f0e hsl(108, 79%, 16%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.79);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  color: #69BE28;
+}

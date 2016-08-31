@@ -1,0 +1,8 @@
+<li>
+{{#link-to 'article' article.id}}{{article.title}} by {{article.author}}
+{{/link-to}}  {{#if isImageShowing}}
+  <p><img src={{article.image}} alt={{article.title}} {{action 'imageHide'}}></p>
+  {{else}}
+  <button class="btn-custom" {{action 'imageShow'}}>Show The Image</button>
+  {{/if}}
+</li>
